@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Amazon Product Page Clone</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f3f3f3;
+    }
+    header {
+      background: #232f3e;
+      color: white;
+      padding: 15px;
+    }
+    .container {
+      display: flex;
+      padding: 20px;
+      gap: 20px;
+    }
+    .sidebar {
+      width: 20%;
+      background: white;
+      padding: 15px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    .product-section {
+      width: 80%;
+      display: flex;
+      background: white;
+      padding: 20px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    .product-image img {
+      max-width: 300px;
+    }
+    .product-info {
+      margin-left: 20px;
+      flex-grow: 1;
+    }
+    .reviews {
+      margin-top: 20px;
+      background: #fff;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Amazon Clone</h1>
+</header>
+
+<div class="container">
+  <div class="sidebar">
+    <h3>Filters</h3>
+    <p>Category: Electronics</p>
+    <p>Brand: XYZ</p>
+    <p>Rating: 4 stars & up</p>
+  </div>
+
+  <div class="product-section">
+    <div class="product-image">
+      <img src="https://via.placeholder.com/300" alt="Product Image">
+    </div>
+    <div class="product-info">
+      <h2>Apple iPhone 15 Pro Max</h2>
+      <p><strong>Price:</strong> ₹1,39,999</p>
+      <p><strong>Availability:</strong> In stock</p>
+      <p><strong>Description:</strong> The iPhone 15 Pro Max features a titanium design, A17 Pro chip, and advanced camera system.</p>
+      <button>Add to Cart</button>
+    </div>
+  </div>
+</div>
+
+<div class="reviews">
+  <h3>Customer Reviews</h3>
+  <p><strong>⭐️⭐️⭐️⭐️⭐️</strong> Excellent phone! Worth the price. – John</p>
+  <p><strong>⭐️⭐️⭐️⭐️</strong> Great performance but expensive. – Priya</p>
+</div>
+
+</body>
+</html>
